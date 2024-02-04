@@ -469,6 +469,22 @@ footer {
     overflow: hidden;
     padding: 1px;
   }
+  .about_container:hover {
+    background-image: url("ram_background2.webp");
+    background-size: cover;
+    background-position: calc(65%);
+    background-repeat: no-repeat;
+    transition: 1.5s ease-out;
+    color: white;
+  }
+  .evolution_container:hover {
+    background-image: url("ram_background2.webp");
+    background-size: cover;
+    background-position: calc(65%);
+    background-repeat: no-repeat;
+    transition: 1.5s ease-out;
+    color: white;
+  }
   .ram_img {
     width: 50%;
     height: 70%;
