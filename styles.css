@@ -312,6 +312,7 @@ ol {
   font-size: 30px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .my_info_icon p {
   font-size: 22px;
