@@ -313,6 +313,7 @@ ol {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 .my_info_icon p {
   font-size: 22px;
