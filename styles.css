@@ -310,12 +310,19 @@ ol {
   margin-top: 13px;
   margin-bottom: 13px;
   font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.my_info_icon p {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 9px;
 }
 .fa-instagram,
 .fa-linkedin-in {
   margin-right: 17px;
   text-decoration: none;
-  color: rgb(148, 125, 125);
+  color: rgb(8, 0, 0);
 }
 .fa-instagram:hover {
   color: #4caf50;
@@ -327,7 +334,11 @@ ol {
 }
 label {
   margin-bottom: 5px;
-  margin-right: 25px;
+  margin-right: 29px;
+}
+.label_mssg {
+  margin-bottom: 5px;
+  margin-right: 5px;
 }
 input,
 textarea {
@@ -375,7 +386,7 @@ footer {
 }
 /********************ALL HOVER EFFECTS********************/
 .contact_container:hover {
-  background-color: #414040;
+  background-color: rgba(0, 0, 0, 0.5);
   transition: 1.5s;
 }
 .histroy_container:hover {
