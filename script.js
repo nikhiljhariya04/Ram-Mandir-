@@ -38,3 +38,6 @@ form.addEventListener("submit", function (event) {
       message
   );
 });
+window.onload = function () {
+  alert("Tap or Hover on each section for a better experience");
+};
